@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     '13.125.218.59',
     'ip-172-26-5-146',
     '9python.jennifersoft.com',
-    '.soojin.codes',
+    '.codeperson.world',
 ]
 
 
