@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '13.125.218.59',
+    'localhost',
+    '127.0.0.1',
     'ip-172-26-5-146',
     '9python.jennifersoft.com',
     '.codeperson.world',

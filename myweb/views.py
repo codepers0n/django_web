@@ -6,16 +6,18 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    context = {
-        'posts' : Post.objects.all()
-    }
-    return render(request, 'blog/home.html', context)
+    return render(request, 'blog/home.html')
 
 def about(request):
     return render(request, 'blog/about.html')
 
 def blog(request):
-    return render(request, 'blog/blog.html')
+    context = {
+        'posts' : Post.objects.all()
+    }
+    return render(request, 'blog/blog.html', context)
+
+
 
 def portfolio(request):
     return render(request, 'blog/portfolio.html')
