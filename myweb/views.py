@@ -19,5 +19,5 @@ def blog(request):
 
 
 
-def portfolio(request):
-    return render(request, 'blog/portfolio.html')
+def projects(request):
+    return render(request, 'blog/projects.html')

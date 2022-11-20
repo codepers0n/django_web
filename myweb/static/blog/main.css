@@ -5,7 +5,7 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: #2accc8;
   }
   
   ul {
@@ -20,6 +20,13 @@ body {
     color: #cbd5db;
   }
   
+  .navbar-brand {
+  color: linear-gradient(to right, #fbcac9, #8ca6ce);
+  font-family: 'Roboto', sans-serif;
+  }
+  
+
+
   .site-header .navbar-nav .nav-link:hover {
     color: #39ff14;
   }
@@ -37,7 +44,7 @@ body {
   }
   
   .article-title {
-    color: #444444;
+    color: #6842ef;
   }
   
   a.article-title:hover {
